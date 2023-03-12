@@ -39,7 +39,7 @@ const styles = StyleSheet.create({
     },
 
     container: {
-        backgroundColor: "#000",
+        backgroundColor: colors.black,
         flex: 1,
     },
 
