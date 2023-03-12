@@ -1,43 +1,8 @@
-import { StatusBar } from 'expo-status-bar';
-import { StyleSheet, View, Text, Image, SafeAreaView } from 'react-native';
+import WelcomeScreen from './app/screens/WelcomeScreen';
 
 
 export default function App() {
-  return (
-    <View
-      style={{
-        backgroundColor: "dodgerblue",
-        flex: 1
-      }}>
-
-      <View
-        style={{
-          backgroundColor: "dodgerblue",
-          flex: 1
-        }} />
-
-      <View
-        style={{
-          backgroundColor: "gold",
-          flex: 1
-        }} />
-
-      <View
-        style={{
-          backgroundColor: "tomato",
-          flex: 1
-        }} />
-
-    </View>
-
-  );
+  return <WelcomeScreen />;
 }
 
-const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    backgroundColor: '#fff',
-    justifyContent: "center",
-    alignItems: "center"
-  },
-});
+

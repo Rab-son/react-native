@@ -1,0 +1,2 @@
+rsf = react stateless function
+rnss = react native style sheet
