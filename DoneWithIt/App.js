@@ -8,15 +8,12 @@ import Screen from './app/components/Screen';
 import Icon from './app/components/Icon';
 import Card from './app/components/Card';
 import ListingDetailsScreen from './app/screens/ListingDetailsScreen';
+import ListItem from './app/components/ListItem';
+import MessagesScreen from './app/screens/MessagesScreen';
 
 export default function App() {
-  return <Screen>
-    <Icon
-      name="email"
-      size={100}
+  return <MessagesScreen />;
 
-    />
-  </Screen>;
 }
 
 

@@ -6,7 +6,7 @@ import AppText from './AppText';
 function ListItem({ title, subTitle, image }) {
     return (
         <View style={styles.container}>
-            <Image style={styles.image} source={image} />
+            {image && <Image style={styles.image} source={image} />}
             <View>
                 <AppText style={styles.title}>{title}</AppText>
                 <AppText style={styles.subTitle}>{subTitle}</AppText>
