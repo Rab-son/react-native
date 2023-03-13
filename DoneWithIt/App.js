@@ -5,7 +5,19 @@ import WelcomeScreen from './app/screens/WelcomeScreen';
 
 
 export default function App() {
-  return <WelcomeScreen />
+  return <View
+    style={{
+      backgroundColor: "#f8f4f4",
+      padding: 20,
+      paddingTop: 100
+    }}
+  >
+    <Card
+      tittle="Red Jacket For Sale"
+      subTitle="$100"
+      image="./app/assets/jacket.jpg"
+    />
+  </View>;
 }
 
 
